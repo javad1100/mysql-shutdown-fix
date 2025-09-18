@@ -1,6 +1,6 @@
 # Repair - MySQL shutdown unexpectedly
 
-**Author:** DevYarn  
+**Author:** Devyarn  
 **Website:** [www.devyarn.com](https://www.devyarn.com)
 
 ---
@@ -58,7 +58,7 @@ A Windows batch script to safely **sync MySQL data folder with a backup** in XAM
 
 ## More Tools & Solutions
 
-Explore other professional scripts at [DevYarn](https://www.devyarn.com).
+Explore other professional scripts at [Devyarn](https://www.devyarn.com).
 
 ---
 
