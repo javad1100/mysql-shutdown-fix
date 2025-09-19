@@ -10,6 +10,8 @@ A Windows batch script to safely **sync MySQL data folder with a backup** in XAM
 
 **Use this tool only when you see the following error in XAMPP:**
 
+![alt text](image.png)
+
 ```
 [mysql] Error: MySQL shutdown unexpectedly. 
 [mysql] This may be due to a blocked port, missing dependencies, 
@@ -59,10 +61,3 @@ A Windows batch script to safely **sync MySQL data folder with a backup** in XAM
 ## More Tools & Solutions
 
 Explore other professional scripts at [Devyarn](https://www.devyarn.com).
-
----
-
-## Repository Name Suggestion
-
-**Recommended GitHub repo name:** `xampp-mysql-repair`  
-This is short, professional, and easy for developers to find when searching for MySQL repair tools.
